@@ -1,17 +1,15 @@
 import React from "react";
-import "./style.css";
 
 class Home extends React.Component {
   render() {
     return (
-      <div className="">
+      <div>
         <img
-          src="./advertising.jpg"
+          src="https://i.pinimg.com/564x/91/89/19/918919d87d5b50cf0741281f4d119642.jpg"
           alt="Smiley face"
-          height="100"
-          width="100"
+          height="700vh"
+          width="700vh"
         />
-        <p>DATA</p>
       </div>
     );
   }
